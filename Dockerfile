@@ -1,5 +1,5 @@
 FROM debian:buster
 
-ARG ENVVARTEST=initial
+ARG ENVVARTEST
 
 RUN echo "testtesttest$ENVVARTEST"
