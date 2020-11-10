@@ -1,5 +1,5 @@
 FROM debian:buster
 
-ENV ENVVARTEST
+ENV ENVVARTEST initial
 
 RUN echo "testtesttest$ENVVARTEST"
